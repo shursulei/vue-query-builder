@@ -4,6 +4,8 @@ Vue版的query builder.
 
 由于作者比较纠结是否应该在前端进行sql转化而没有加这个功能/😂，所把它搬过来简单的加上了将json条件转化为sql的功能。
 
+插件本身似乎还是有些bug或者不完善的地方，如若使用还是得拿下来改巴改巴。
+
 ``` 
  <vue-query-builder :rules="rules" v-model="output" :labels="labels" @sql="getSql"></vue-query-builder>
 
