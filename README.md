@@ -1,3 +1,27 @@
+Vue版的query builder.
+
+源地址：https://github.com/dabernathy89/vue-query-builder
+
+由于作者比较纠结是否应该在前端进行sql转化而没有加这个功能/😂，所把它搬过来简单的加上了将json条件转化为sql的功能。
+
+``` html
+ <vue-query-builder :rules="rules" v-model="output" :labels="labels" @sql="getSql"></vue-query-builder>
+
+... 省略其他
+methods: {
+    getSql(sql){
+      console.log(sql)
+    }
+... 省略其他
+```
+
+
+
+以下是源内容：
+
+------
+
+
 Vue Query Builder
 ======
 
