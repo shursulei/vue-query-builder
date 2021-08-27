@@ -19,6 +19,7 @@
         matchTypes: [
             {"id": "all", "label": "All"},
             {"id": "any", "label": "Any"},
+            {"id": "and", "label": "and"}
         ],
         addRule: "Add Rule",
         removeRule: "&times;",
